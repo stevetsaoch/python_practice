@@ -32,7 +32,7 @@
 #   if char == 5:
 #       print(i)
 
-#while
+#while123
 i= 0
 while i<51:
     i = i+1
