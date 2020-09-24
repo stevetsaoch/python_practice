@@ -33,6 +33,7 @@
 #       print(i)
 
 #while
-
-while 0<50:
-    
+i= 0
+while i<50:
+    i = i+1
+    print(i) 
