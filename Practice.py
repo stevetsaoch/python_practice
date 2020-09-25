@@ -88,3 +88,52 @@
 #         print("Congratlation on your first year of driving.")
 
 # checkage(18)
+
+# def is_primenumber(num):
+#     i = 2
+#     if num == 2:
+#         print(True)
+#     else:
+#         while i < num:
+#             if num % i == 0 :
+#                 print(False)
+#                 break
+#             else:
+#                 if i == num - 1:
+#                     print(True)
+#             i += 1
+    
+    
+           
+# is_primenumber(2447)
+
+##out put a highest even from a list or a number series you input
+# testlist = [2,3,5,12000,19,33000,48,17,10,1000,15,12]
+# def heighest_even(*inputlist):
+#     temp_list = list(inputlist)
+#     temp_value = 0
+#     temp_highest_even = 2
+#     for item in temp_list:
+#         while item % 2 == 0:
+#             temp_value = item
+#             if temp_value <= temp_highest_even:
+#                 temp_highest_even = temp_highest_even
+#                 break
+#             else:
+#                 temp_highest_even = item
+#                 break
+#     return temp_highest_even
+
+# print(heighest_even(10000,20,1,3,5,100000,100))
+
+total = 0 
+
+def count(total):
+    total += 1
+    return total
+
+print(count(3))
+
+x = 'hello'
+y = "Hello"[0]
+print(y)
